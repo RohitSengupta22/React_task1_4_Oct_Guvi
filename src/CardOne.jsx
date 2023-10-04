@@ -10,8 +10,8 @@ const CardOne = (props) => {
         <div>
             <Card style={{ width: '18rem', height: '400px', borderRadius: '10px', backgroundColor: 'white' }}>
                 <Card.Body>
-                    <Card.Subtitle className="mb-2 text-muted">{props.subtitle}</Card.Subtitle>
-                    <Card.Title>{props.title}</Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted" style={{textAlign: 'center'}}>{props.subtitle}</Card.Subtitle>
+                    <Card.Title style={{textAlign: 'center'}}>{props.title}</Card.Title>
                     <hr></hr>
                     <Card.Text>
                         <ul style={{ textAlign: 'left' }}>
